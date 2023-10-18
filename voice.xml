@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather input="speech" timeout="3" numDigits="1" action="/process-input">
+        <Say voice="alice">Welcome to the VoiceBot service. Please choose from the following options: 
+            Press 1 for account information. 
+            Press 2 for customer support. 
+            Press 3 to hear our latest offers. 
+            Press 4 to talk to a representative.
+        </Say>
+    </Gather>
+</Response>
